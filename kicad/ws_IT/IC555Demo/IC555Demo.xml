@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\work\kicad\ws_IT\IC555Demo\IC555Demo.kicad_sch</source>
+    <date>2022-09-05 오후 2:47:52</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>IC555Demo.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.01uF</value>
+      <footprint>5_lsk:Cap1</footprint>
+      <fields>
+        <field name="Shop">https://www.eleparts.co.kr/goods/view?no=9048</field>
+      </fields>
+      <libsource lib="5_lsk" part="Cap1" description=""/>
+      <property name="Shop" value="https://www.eleparts.co.kr/goods/view?no=9048"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC555Demo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>577b8943-5331-4ed7-9e74-4472a282d6fb</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>5_lsk:Cap2</footprint>
+      <fields>
+        <field name="Shop">https://www.eleparts.co.kr/goods/view?no=9048</field>
+      </fields>
+      <libsource lib="5_lsk" part="Cap2" description=""/>
+      <property name="Shop" value="https://www.eleparts.co.kr/goods/view?no=9048"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC555Demo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6faf5f0-06d3-4b5f-ac9e-caa8e2a3e888</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Shop">https://www.eleparts.co.kr/goods/view?no=9048</field>
+      </fields>
+      <libsource lib="5_lsk" part="LED" description=""/>
+      <property name="Shop" value="https://www.eleparts.co.kr/goods/view?no=9048"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC555Demo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acef591d-7b8e-425a-8c6d-7b71d4521162</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Shop">https://www.eleparts.co.kr/goods/view?no=9048</field>
+      </fields>
+      <libsource lib="5_lsk" part="LED" description=""/>
+      <property name="Shop" value="https://www.eleparts.co.kr/goods/view?no=9048"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC555Demo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f830589f-774f-4a80-91d7-5acd1092ab09</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>CON02</value>
+      <footprint>5_lsk:CON_02</footprint>
+      <datasheet>https://www.eleparts.co.kr/goods/view?no=9048</datasheet>
+      <fields>
+        <field name="Shop">https://www.eleparts.co.kr/goods/view?no=9048</field>
+      </fields>
+      <libsource lib="5_lsk" part="CON02" description=""/>
+      <property name="Shop" value="https://www.eleparts.co.kr/goods/view?no=9048"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC555Demo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ab34cf7-64e4-4887-bd66-2128c7459ec7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>5_lsk:Resistor</footprint>
+      <fields>
+        <field name="Shop">https://www.eleparts.co.kr/goods/view?no=9048</field>
+      </fields>
+      <libsource lib="" part="Resistor_1" description=""/>
+      <property name="Shop" value="https://www.eleparts.co.kr/goods/view?no=9048"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC555Demo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0dae412-3abb-49cf-9f67-2f142d328cde</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>33k</value>
+      <footprint>5_lsk:Resistor</footprint>
+      <fields>
+        <field name="Shop">https://www.eleparts.co.kr/goods/view?no=9048</field>
+      </fields>
+      <libsource lib="5_lsk" part="Resistor" description=""/>
+      <property name="Shop" value="https://www.eleparts.co.kr/goods/view?no=9048"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC555Demo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62256e02-d646-4074-bff5-22185e4237e2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>555</value>
+      <footprint>5_lsk:555_DIP</footprint>
+      <fields>
+        <field name="Shop">https://www.eleparts.co.kr/goods/view?no=9048</field>
+      </fields>
+      <libsource lib="5_lsk" part="555" description=""/>
+      <property name="Shop" value="https://www.eleparts.co.kr/goods/view?no=9048"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC555Demo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f61acd2a-fe7a-4fed-8691-f062b663c257</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Resistor_1">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="5_lsk" part="555">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="TRIGGER" type="input"/>
+        <pin num="3" name="OUTPUT" type="input"/>
+        <pin num="4" name="RESET" type="input"/>
+        <pin num="5" name="CONTROL_VOLTAGE" type="input"/>
+        <pin num="6" name="THRESHOLD" type="input"/>
+        <pin num="7" name="DISCHARGE" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="5_lsk" part="CON02">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CON02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="5_lsk" part="Cap1">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Cap1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="5_lsk" part="Cap2">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Cap2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="5_lsk" part="LED">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="5_lsk" part="Resistor">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="5_lsk">
+      <uri>C:/work/kicad/lib/5_lsk.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="D2" pin="2" pintype="input"/>
+      <node ref="J1" pin="1" pintype="input"/>
+      <node ref="R1" pin="1" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="RESET" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="input"/>
+      <node ref="C2" pin="2" pintype="input"/>
+      <node ref="D1" pin="1" pintype="input"/>
+      <node ref="J1" pin="2" pintype="input"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="CONTROL_VOLTAGE" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pintype="input"/>
+      <node ref="D2" pin="1" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="OUTPUT" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="input"/>
+      <node ref="R2" pin="1" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="DISCHARGE" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(R2-Pad2)">
+      <node ref="C2" pin="1" pintype="input"/>
+      <node ref="R2" pin="2" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="TRIGGER" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="THRESHOLD" pintype="input"/>
+    </net>
+  </nets>
+</export>

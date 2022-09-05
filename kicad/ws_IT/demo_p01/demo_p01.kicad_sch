@@ -1,0 +1,133 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 1eb00d97-cab0-4eb2-979d-e7eb86d3e34d)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "1_lsk:myLED" (in_bom yes) (on_board yes)
+      (property "Reference" "D" (id 0) (at -7.62 -1.27 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "myLED" (id 1) (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "myLED_0_1"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.4986 2.54)
+            (xy -3.2004 3.7338)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 2.0828)
+            (xy -1.27 -2.1336)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.5842 2.8702)
+            (xy -2.286 4.064)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 2.54 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 3.2512)
+            (xy -3.2258 3.7338)
+            (xy -2.7178 3.7592)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.1336 3.5814)
+            (xy -2.3114 4.064)
+            (xy -1.8034 4.0894)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy 1.27 2.0828)
+            (xy 1.27 -2.1082)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (circle (center 0 0) (radius 2.54)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "myLED_1_1"
+        (pin input line (at -5.08 0 0) (length 2.54)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 5.08 0 180) (length 2.54)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "1_lsk:myLED") (at 78.74 68.58 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 0b2354c5-a64d-4544-a4c1-b9bba06b8238)
+    (property "Reference" "D?" (id 0) (at 78.3971 59.69 0))
+    (property "Value" "myLED" (id 1) (at 78.3971 62.23 0))
+    (property "Footprint" "" (id 2) (at 78.74 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 78.74 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7f72abf0-6c8d-4cca-b079-9239d99da75f))
+    (pin "2" (uuid 0773caaf-1e5b-45ea-acc5-cb8997ea49a8))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/0b2354c5-a64d-4544-a4c1-b9bba06b8238"
+      (reference "D?") (unit 1) (value "myLED") (footprint "")
+    )
+  )
+)

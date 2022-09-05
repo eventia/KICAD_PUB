@@ -1,0 +1,30 @@
+"Source:","C:\work\kicad\ws_IT\IC555Demo\IC555Demo.kicad_sch"
+"Date:","2022-09-05 오후 2:47:52"
+"Tool:","Eeschema (6.0.7)"
+"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","8"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Shop"
+"","","C1","0.01uF","5_lsk:Cap1","5_lsk:Cap1","","https://www.eleparts.co.kr/goods/view?no=9048"
+"","","C2","10uF","5_lsk:Cap2","5_lsk:Cap2","","https://www.eleparts.co.kr/goods/view?no=9048"
+"","","D1","LED","5_lsk:LED","LED_THT:LED_D5.0mm","","https://www.eleparts.co.kr/goods/view?no=9048"
+"","","D2","LED","5_lsk:LED","LED_THT:LED_D5.0mm","","https://www.eleparts.co.kr/goods/view?no=9048"
+"","","J1","CON02","5_lsk:CON02","5_lsk:CON_02","https://www.eleparts.co.kr/goods/view?no=9048","https://www.eleparts.co.kr/goods/view?no=9048"
+"","","R1","1k",":Resistor_1","5_lsk:Resistor","","https://www.eleparts.co.kr/goods/view?no=9048"
+"","","R2","33k","5_lsk:Resistor","5_lsk:Resistor","","https://www.eleparts.co.kr/goods/view?no=9048"
+"","","U1","555","5_lsk:555","5_lsk:555_DIP","","https://www.eleparts.co.kr/goods/view?no=9048"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Shop"
+"1","1","C1","0.01uF","5_lsk:Cap1","5_lsk:Cap1","","https://www.eleparts.co.kr/goods/view?no=9048"
+"2","1","C2","10uF","5_lsk:Cap2","5_lsk:Cap2","","https://www.eleparts.co.kr/goods/view?no=9048"
+"3","2","D1, D2","LED","5_lsk:LED","LED_THT:LED_D5.0mm","","https://www.eleparts.co.kr/goods/view?no=9048"
+"4","1","J1","CON02","5_lsk:CON02","5_lsk:CON_02","https://www.eleparts.co.kr/goods/view?no=9048","https://www.eleparts.co.kr/goods/view?no=9048"
+"5","1","R1","1k",":Resistor_1","5_lsk:Resistor","","https://www.eleparts.co.kr/goods/view?no=9048"
+"6","1","R2","33k","5_lsk:Resistor","5_lsk:Resistor","","https://www.eleparts.co.kr/goods/view?no=9048"
+"7","1","U1","555","5_lsk:555","5_lsk:555_DIP","","https://www.eleparts.co.kr/goods/view?no=9048"
